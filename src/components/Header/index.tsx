@@ -1,6 +1,6 @@
-import { HeaderBar, Links, LinkItem, LinkCart } from './styles'
-import logo from '../../assets/images/logo.svg'
-import carrinho from '../../assets/images/carrinho.svg'
+import { HeaderBar, Links, LinkItem, LinkCart } from "./styles"
+import logo from "../../assets/images/logo.svg"
+import carrinho from "../../assets/images/carrinho.svg"
 
 const Header = () => (
   <HeaderBar>
@@ -9,15 +9,15 @@ const Header = () => (
       <nav>
         <Links>
           <LinkItem>
-            {' '}
+            {" "}
             <a href="#">Categoria</a>
           </LinkItem>
           <LinkItem>
-            {' '}
+            {" "}
             <a href="#">Novidades</a>
           </LinkItem>
           <LinkItem>
-            {' '}
+            {" "}
             <a href="#">Promoções</a>
           </LinkItem>
         </Links>
