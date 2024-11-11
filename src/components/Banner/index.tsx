@@ -1,15 +1,28 @@
 import { Imagem, Titulo, Precos } from './styles'
+
 import bannerImg from '../../assets/images/banner-homem-aranha.png'
+import Tag from '../Tag'
+import Button from '../Button'
 
 const Banner = () => (
   <Imagem style={{ backgroundImage: `url(${bannerImg})` }}>
     <div className="container">
-      <Titulo>Marvel Spider Man: Miles Morales PS4 e PS5</Titulo>
-      <Precos>
-        <span>De R$ 250,00 </span>
-        <br />
-        por apenas R$ 99,90
-      </Precos>
+      <Tag size="big">Destaque do dia</Tag>
+      <div>
+        <Titulo>Marvel Spider Man: Miles Morales PS4 e PS5</Titulo>
+        <Precos>
+          <span>De R$ 250,00 </span>
+          <br />
+          por apenas R$ 99,90
+        </Precos>
+      </div>
+      <Button
+        type="link"
+        to="/produto"
+        title="Clique aqui para aproveitar essa oportunidade"
+      >
+        Aproveitar
+      </Button>
     </div>
   </Imagem>
 )
