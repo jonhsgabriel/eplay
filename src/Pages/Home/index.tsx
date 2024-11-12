@@ -63,7 +63,7 @@ const emBreve: Game[] = [
     title: "Diablo 4",
     system: "windows",
     infos: ["17/05"],
-    image: diablo
+    image: zelda
   },
   {
     id: 7,
@@ -72,7 +72,7 @@ const emBreve: Game[] = [
     title: "Diablo 4",
     system: "windows",
     infos: ["17/05"],
-    image: diablo
+    image: starWars
   },
   {
     id: 8,
@@ -81,7 +81,7 @@ const emBreve: Game[] = [
     title: "Diablo 4",
     system: "windows",
     infos: ["17/05"],
-    image: diablo
+    image: zelda
   }
 ]
 
